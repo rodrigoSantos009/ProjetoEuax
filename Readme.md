@@ -31,7 +31,7 @@ $ git clone <https://github.com/rodrigoSantos009/Projetoeuax.git>
 
 ### Rodando o projeto
 
-> Na pagina de Login digite no campo **email** adm@adm.com.br e no campo **senha** 123. Caso queira adicionar um usúario, abra a pasta do projeto e no arquivo **valida_login.php** e adicione o novo usuário no array **users_app**.
+> Na pagina de Login digite no campo **email** adm@adm.com.br e no campo **senha** 123. Caso queira adicionar um usúario, abra a pasta do projeto no editor [VSCode](https://code.visualstudio.com/) e no arquivo **valida_login.php** e adicione o novo usuário no array **users_app**.
 
 ### Tecnologias
 
