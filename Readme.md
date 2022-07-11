@@ -29,7 +29,7 @@ $ git clone <https://github.com/rodrigoSantos009/Projetoeuax.git>
 
 # No programa Xampp ative o módulo Apache
 
-# Salve a pasta Projetoeuax.git na no arquivo htdocs na pasta xampp
+# Mova a pasta Projetoeuax.git no arquivo htdocs na pasta xampp
 
 # Execute a aplicação no navegador <http://localhost/ProjectEuax/>
 ```
