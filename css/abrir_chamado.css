@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: hsl(257, 40%, 49%);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    color: rgb(57, 56, 56);
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+.card-abrir-chamado {
+    width: 50%;
+    padding: 30px;
+    border-radius: 7px;
+    margin: 0 auto;
+    background-color: rgb(240, 234, 234);
+}
+
+.card-header {
+    background-color: hsl(257, 40%, 49%);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.card-header h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 70px;
+}
+
+input, select {
+    height: 50px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    border-radius: 7px;
+    border: none;
+}
+
+.links-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+ul li:hover {
+    background: hsl(300, 25%, 45%);
+}
+
+@media screen and (max-width: 700px) {
+    .card-abrir-chamado {
+        width: 70%;
+    }
+
+    ul li {
+        width: 100px;
+    }
+}
+
+
