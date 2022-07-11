@@ -20,15 +20,20 @@
 
 ### Pré-requisitos
 
-> Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta [Git](https://git-scm.com) e um editor como o [VSCode](https://code.visualstudio.com/)
+> Antes de começar, você vai precisar ter instalado em sua máquina as seguinte ferramentas [Git](https://git-scm.com), [Xampp](https://www.apachefriends.org/) e um editor como o [VSCode](https://code.visualstudio.com/)
 
 
 ```bash
 # Clone este repositório usando o Git
 $ git clone <https://github.com/rodrigoSantos009/Projetoeuax.git>
+
+# No programa Xampp ative o módulo Apache
+
+# Salve a pasta Projetoeuax.git na no arquivo htdocs na pasta xampp
+
+# Execute a aplicação no navegador <http://localhost/ProjectEuax/>
 ```
 ---
-
 ### Rodando o projeto
 
 > Na pagina de Login digite no campo **email** adm@adm.com.br e no campo **senha** 123. Caso queira adicionar um usúario, abra a pasta do projeto no editor [VSCode](https://code.visualstudio.com/) e no arquivo **valida_login.php** e adicione o novo usuário no array **users_app**.
